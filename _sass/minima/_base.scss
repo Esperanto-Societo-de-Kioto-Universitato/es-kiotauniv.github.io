@@ -23,6 +23,7 @@ body {
        -o-font-feature-settings: "kern" 1;
           font-feature-settings: "kern" 1;
   font-kerning: normal;
+  font-display: swap;
   display: flex;
   min-height: 100vh;
   flex-direction: column;
@@ -58,7 +59,10 @@ img {
   max-width: 100%;
   vertical-align: middle;
 }
-
+.head-image {
+  width: auto;
+  height: auto;
+}
 
 
 /**

@@ -42,6 +42,8 @@ header_pages:
   - index.md
   - pri-eo.md
   - historio.md
+exclude:
+  - README.md
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
