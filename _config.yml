@@ -10,6 +10,7 @@ locale: ja_JP
 twitter:
   username: Es_HokkajdaUniv
   card: summary
+google_analytics: G-4WD7T5F6GN
 
 # social.html
 email: esperanto.hokudai@gmail.com
@@ -18,6 +19,9 @@ mastodon:
   - username: Es_HokkajdaUniv
     instance: fedibird.com
 twitter_username: Es_HokkajdaUniv
+bluesky_username: Es-HokkajdaUniv
+note_username: es_hokkajdauniv
+# rss: Feed
 
 incremental: false
 highlighter: rouge
