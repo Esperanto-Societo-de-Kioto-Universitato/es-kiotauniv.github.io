@@ -3,6 +3,7 @@ lang: eo
 layout: home
 title: Hejme
 ---
+<!-- 以下、自由に記述してください -->
 ## Pri ni
 
 La Esperanto-Rondo de Hokkajda Universitato estas neoficiala grupo, kiu ĉefe konsistas el studentoj de Hokkajda universitato.
