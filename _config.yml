@@ -1,7 +1,6 @@
 # meta
 lsi: false
 safe: true
-baseurl: ""
 source: ./
 lang: ja
 title:
@@ -24,7 +23,6 @@ mastodon:
 twitter_username: Es_HokkajdaUniv
 bluesky_username: Es-HokkajdaUniv
 note_username: es_hokkajdauniv
-# rss: Feed
 
 incremental: false
 highlighter: rouge
