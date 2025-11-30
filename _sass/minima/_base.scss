@@ -97,8 +97,17 @@ li {
  h1, h2, h3, h4, h5, h6 {
   font-weight: 500;
 }
+.header-anchor {
+  display: inline-flex;
+  align-items: center;
+  margin-left: 0.35em;
+  opacity: 0.45;
+  text-decoration: none;
+}
 
-
+.header-anchor:hover {
+  opacity: 1;
+}
 
 /**
  * Links
@@ -142,7 +151,16 @@ blockquote {
   }
 }
 
-
+/**
+ * Textbox
+ */
+textarea {
+  margin: 5px;
+  border-radius: 5px;
+  width: 300px;
+  max-width: 100%;
+  height: 200px;
+}
 
 /**
  * Code formatting
@@ -227,9 +245,19 @@ pre {
 /**
  * Tables
  */
+.table-container {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  width: 100%;
+}
+.table-scrollable {
+  width: auto;
+  white-space: pre;
+}
+
 table {
   margin-bottom: $spacing-unit;
-  width: 100%;
+  width: auto;
   text-align: $table-text-align;
   color: lighten($text-color, 18%);
   border-collapse: collapse;

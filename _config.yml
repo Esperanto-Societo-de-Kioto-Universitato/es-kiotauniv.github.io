@@ -40,19 +40,20 @@ defaults:
       path: ""
     values:
       layout: "default"
-  - scope:
-      path: ""
-    values:
-      image: "/assets/img/maskoto.png"
 header_pages:
   ja:
     - ja/index.md
     - ja/pri-eo.md
     - ja/historio.md
+    - ja/conv.md
   eo:
     - eo/index.md
     - eo/historio.md
+    - eo/conv.md
 exclude:
   - README.md
 plugins:
   - jekyll-sitemap
+markdown: kramdown
+kramdown:
+  footnote_backlink: "&#8617;&#xfe0e;"

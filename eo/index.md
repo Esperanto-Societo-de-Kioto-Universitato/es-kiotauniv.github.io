@@ -6,7 +6,7 @@ title: Hejme
 <!-- 以下、自由に記述してください -->
 ## Pri ni
 
-La Esperanto-Rondo de Hokkajda Universitato estas neoficiala grupo, kiu ĉefe konsistas el studentoj de Hokkajda universitato.
+La Esperanto-Rondo de Hokkajda Universitato estas neoficiala grupo, kiu ĉefe konsistas el studentoj de Hokkajda Universitato.
 
 ```yaml
 nomo: Esperanto-Rondo de Hokkajda Universitato
@@ -22,7 +22,7 @@ kontakto:
     bluesky: '@Es_HokkajdaUniv.fedibird.com.ap.brid.gy' # tra Bridgy Fed
     X / tvitero: '@Es_HokkajdaUniv'
     github: Es-HokkajdaUniv
-    note: note.com/es_hokkajdauniv
+    note.com: es_hokkajdauniv
 ekstera ligilo:
     hubcnavi: hubcnavi.net/Es_HokkajdaUniv
 ```
