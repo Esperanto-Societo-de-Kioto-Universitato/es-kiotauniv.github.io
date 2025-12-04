@@ -29,16 +29,16 @@
     
     <div class="btn-controls">
         <button id="btn-copy" class="btn-copy" onclick="copyText()">📋 {{ btn-copy }}</button>
-        <button class="btn-x" title="X (Twitter)" onclick="shareToX()">
+        <button class="btn-x" title="X (Twitter)" onclick="postText('twitter')">
           <svg class="svg-icon"><use xlink:href="{{ '/assets/social-icons.svg#twitter' | relative_url }}" fill="#fff"></use></svg>
         </button>
-        <button class="btn-bsky" title="Bluesky" onclick="shareToBsky()">
+        <button class="btn-bsky" title="Bluesky" onclick="postText('bsky')">
           <svg class="svg-icon"><use xlink:href="{{ '/assets/social-icons.svg#bluesky' | relative_url }}" fill="#fff"></use></svg>
         </button>
-        <button class="btn-misskey" title="Misskey" onclick="shareToMisskey()">
+        <button class="btn-misskey" title="Misskey" onclick="postText('misskey')">
           <svg class="svg-icon"><use xlink:href="{{ '/assets/social-icons.svg#misskey' | relative_url }}" fill="#fff"></use></svg>
         </button>
-        <button class="btn-mastodon" title="Mastodon" onclick="shareToMastodon()">
+        <button class="btn-mastodon" title="Mastodon" onclick="postText('mastodon')">
           <svg class="svg-icon"><use xlink:href="{{ '/assets/social-icons.svg#mastodon' | relative_url }}" fill="#fff"></use></svg>
         </button>
     </div>
@@ -117,38 +117,24 @@
     });
   }
 
-  // シェア機能 (X / Twitter)
-  function shareToX() {
+  // シェア機能
+  function postText(platform) {
     const textToShare = outputBox.value;
-    if (!textToShare) {
-      return;
+    if (!textToShare) return;
+    const encodedText = encodeURIComponent(textToShare);
+    let postURL;
+    if (platform == "twitter") {
+      postURL = `https://twitter.com/intent/tweet?text=${encodedText}`;
     }
-    // URLエンコードしてツイート画面を開く
-    const tweetUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(textToShare)}`;
-    window.open(tweetUrl, '_blank');
-  }
-  function shareToBsky() {
-    const textToShare = outputBox.value;
-    if (!textToShare) {
-      return;
+    else if (platform == "bsky") {
+      postURL = `https://bsky.app/intent/compose?text=${encodedText}`;
     }
-    const postURL = `https://bsky.app/intent/compose?text=${encodeURIComponent(textToShare)}`;
-    window.open(postURL, '_blank');
-  }
-  function shareToMisskey() {
-    const textToShare = outputBox.value;
-    if (!textToShare) {
-      return;
+    else if (platform == "misskey") {
+      postURL = `https://misskey-hub.net/{{ misskey-lang }}/share/?text=${encodedText}&visibility=public&localOnly=0&manualInstance=misskey.io`;
     }
-    const postURL = `https://misskey-hub.net/{{ misskey-lang }}/share/?text=${encodeURIComponent(textToShare)}&visibility=public&localOnly=0&manualInstance=misskey.io`;
-    window.open(postURL, '_blank');
-  }
-  function shareToMastodon() {
-    const textToShare = outputBox.value;
-    if (!textToShare) {
-      return;
+    else if (platform == "mastodon") {
+      postURL = `https://mastodonshare.com/?text=${encodedText}`;
     }
-    const postURL = `https://mastodonshare.com/?text=${encodeURIComponent(textToShare)}`;
     window.open(postURL, '_blank');
   }
 </script>
