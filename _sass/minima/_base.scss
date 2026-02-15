@@ -368,3 +368,18 @@ table {
     border: 1px solid $grey-color-light;
   }
 }
+
+/* 脚注エリア（footer）の直前に見出しを挿入 */
+.footnotes::before {
+  content: "脚注";   /* 表示したいテキスト */
+  display: block;    /* ブロック要素にして独立させる */
+  font-size: 1.5rem; /* h2相当のサイズ（適宜調整） */
+  font-weight: 500;  /* 既存のh2設定に合わせて調整 */
+  margin-bottom: $spacing-unit * 0.5; /* 既存の垂直リズムに合わせる */
+  padding-bottom: 5px;
+}
+
+/* 脚注エリア自体のマージン調整 */
+.footnotes {
+  margin-top: $spacing-unit * 2;
+}
