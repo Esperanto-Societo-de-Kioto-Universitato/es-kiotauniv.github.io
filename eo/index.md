@@ -6,7 +6,7 @@ title: Hejme
 <!-- 以下、自由に記述してください -->
 ## Pri ni
 
-**Esperanto-Rondo de Hokkajda Universitato** estas studgrupo por lerni Esperanto. Ni estas neoficiala universitata grupo, konsistanta ĉefe el studentoj de la Hokkajda Universitato. Ankaŭ eksteruloj de la universitato estas bonvenaj partopreni.
+**Esperanto-Rondo de Hokkajda Universitato** estas studgrupo por lerni Esperanto. Ni estas neoficiala universitata grupo, konsistanta ĉefe el studentoj de la Hokkajda Universitato. Ankaŭ eksteruloj de la universitato estas bonvenaj.
 
 ## Ĉefaj agadoj
 
