@@ -8,7 +8,7 @@
       {% assign initial_page = '/eo/' %}
     {% endif %}
     <a class="site-title" rel="author" href="{{ initial_page | relative_url }}">
-      <img class="head-image" src="/assets/img/logo.jpg" alt="京大エスペラント語研究会ロゴ" />
+      <img class="head-image" src="{{ '/assets/img/logo.jpg' | relative_url }}" alt="京大エスペラント語研究会ロゴ" />
       {{ site.title[lang] | escape }}
     </a>
     {% if page_paths -%}
