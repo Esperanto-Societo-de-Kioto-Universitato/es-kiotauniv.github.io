@@ -4,41 +4,37 @@ layout: home
 title: ホーム
 permalink: /
 ---
-<!-- 以下、自由に記述してください -->
+
 ## 当会について
 
-**北海道大学エスペラント研究会 (Esperanto-Rondo de Hokkajda Univesitato)** は、国際語エスペラントを学ぶサークルです。北海道大学の学生を中心に構成されている、大学非公認団体です。北大構成員以外の学生や生徒、社会人の方も参加可能です。
+**京大エスペラント語研究会 (La Esperanto-Societo de la Universitato de Kioto)** は、国際語エスペラントを学ぶ京都大学のサークルです。1919年の創立以来、100年以上にわたってエスペラントの学習・普及活動を続けています。京大生に限らず、他大学の学生や社会人の方も大歓迎です。
 
 ## 主な活動
 
-- エスペラントの学習会
-- 大学祭における古本・雑貨市の開催（毎年6月）
-- 機関誌の発行（不定期）
+- エスペラントの学習会（例会）
+- エスペラントに関する文献の読書会
+- 他大学エスペラント研究会との交流
 
-{: .table-scrollable}
+<div class="info-cards" markdown="0">
+  <div class="info-card">
+    <h3>例会</h3>
+    <p>水曜 18:30～<br>西部課外活動棟 D206</p>
+  </div>
+  <div class="info-card">
+    <h3>創立</h3>
+    <p>1919年</p>
+  </div>
+  <div class="info-card">
+    <h3>SNS</h3>
+    <p><a href="https://x.com/esp_univK">X: @esp_univK</a><br><a href="https://www.instagram.com/esperanto_kyotouniv/">Instagram</a></p>
+  </div>
+</div>
 
-| 人数 | 5人 |
-| 設立年 | 1919年 |
-| 活動場所 | 北海道大学 札幌キャンパス |
-| 活動頻度 | 1~2ヶ月に1回 |
-| メールアドレス | esperanto.hokudai@gmail\.com |
-| SNS | [Fediverse](https://fedibird.com/@Es_HokkajdaUniv), [Bluesky](https://bsky.app/profile/Es-HokkajdaUniv.fedibird.com.ap.brid.gy), [X (Twitter)](https://www.twitter.com/Es_HokkajdaUniv) |
+## お問い合わせ
 
-```yaml
-nomo: Esperanto-Rondo de Hokkajda Universitato
-loko: Sapporo, Hokkajdo, Japanio
-ekde: 1919 (aŭ 2012)
-agado: 
-    - lernado de Esperanto
-    - okazigado de pulbazaro ĉe la universitata festivalo
-    - eldonado de novaĵletero, ktp.
-kontakto:
-    retadreso: esperanto.hokudai@gmail.com
-    fediverso: '@Es_HokkajdaUniv@fedibird.com'
-    bluesky: '@Es_HokkajdaUniv.fedibird.com.ap.brid.gy' # tra Bridgy Fed
-    X / tvitero: '@Es_HokkajdaUniv'
-    github: Es-HokkajdaUniv
-    note.com: es_hokkajdauniv
-ekstera ligilo:
-    hubcnavi: hubcnavi.net/Es_HokkajdaUniv
-```
+見学はいつでも歓迎しています。例会の日時に直接お越しいただくか、SNSのDMでお気軽にご連絡ください。
+
+<div class="social-badges" markdown="0">
+  <a href="https://x.com/esp_univK">X (Twitter)</a>
+  <a href="https://www.instagram.com/esperanto_kyotouniv/">Instagram</a>
+</div>

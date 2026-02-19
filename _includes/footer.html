@@ -12,10 +12,16 @@
             {%- else -%}
               {{ site.title[lang] | escape }}
             {%- endif -%}
-            </li>
-            {%- if site.email -%}
-            <li>{{ site.email }}</li>
-            {%- endif -%}
+          </li>
+          {% if lang == 'ja' %}
+          <li>例会：水曜 18:30～</li>
+          <li>西部課外活動棟 D206</li>
+          <li>創立 1919年</li>
+          {% else %}
+          <li>Kunveno: merkrede 18:30～</li>
+          <li>Okcidenta Eksterinstruejo D206</li>
+          <li>Fondita en 1919</li>
+          {% endif %}
         </ul>
       </div>
       <div class="footer-col footer-col-2">

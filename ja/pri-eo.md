@@ -2,9 +2,10 @@
 lang: ja
 title: エスペラントとは
 permalink: /pri-eo/
-updated_date: 2026-02-14
 ---
-<!-- 以下、自由に記述してください -->
+
+> 本ページの内容は、[北海道大学エスペラント研究会](https://es-hokkajdauniv.github.io/)のウェブサイトに掲載されているエスペラント解説を大いに参考にして作成しています。ここに感謝の意を表します。
+
 ## エスペラントとは
 
 {% gloss %}
@@ -33,19 +34,19 @@ Kio estas Esperanto?
 名詞に関して、エスペラントには対格「～を」を表す語尾 **-n** があります。この際注意すべき点として、名詞を修飾する形容詞も対格語尾をとります。下の例の場合、kampuson「キャンパスを」を修飾する形容詞 belan「美しい」も対格の形になっています。言語学ではこれを一致と呼びます。
 
 {% gloss first_line_orig: true %}
-Hokkajda Universitato havas tre belan kampuson.
-Hokkajd-a Universitat-o hav-as tre bel-a-n kampus-o-n
-北海道-形容詞 大学-名詞 所有-動詞.現在 とても 美-形容詞-を キャンパス-名詞-を
-「北海道大学はとても美しいキャンパスを有している」
+La Universitato de Kioto havas tre belan kampuson.
+La Universitat-o de Kiot-o hav-as tre bel-a-n kampus-o-n
+定冠詞 大学-名詞 の 京都-名詞 所有-動詞.現在 とても 美-形容詞-を キャンパス-名詞-を
+「京都大学はとても美しいキャンパスを有している」
 {% endgloss %}
 
 またエスペラントには単数・複数の区別があり、複数語尾は **-j** となります（下例）。上述の対格と合わさる場合は **-jn** です。
 
 {% gloss first_line_orig: true %}
-Ĉe Hokkajda Universitato vivas bovoj, ŝafoj, vulpoj, sciuroj kaj homoj.
-Ĉe {Hokkajda Universitato} vivas bov-o-j ŝaf-o-j vulp-o-j sciur-o-j kaj hom-o-j
-に 北海道大学 生息している 牛-名詞-複数 羊-名詞-複数 キツネ-名詞-複数 リス-名詞-複数 と ヒト-名詞-複数
-「北海道大学には牛や羊、キツネ、リス、ヒトが生息している」
+En Kioto estas multaj antikvaj temploj, sanktejoj kaj ĝardenoj.
+En Kiot-o est-as mult-a-j antikv-a-j templ-o-j sankej-o-j kaj ĝarden-o-j
+に 京都-名詞 存在-動詞.現在 多-形容詞-複数 古-形容詞-複数 寺-名詞-複数 神社-名詞-複数 と 庭園-名詞-複数
+「京都には多くの古い寺や神社、庭園がある」
 {% endgloss %}
 
 主格（主語になる形）と対格は語尾で区別できるため、エスペラントは英語ほど語順に制約がなく、上の例のように VS（動詞–主語）の語順も可能です。
@@ -66,7 +67,7 @@ Hokkajd-a Universitat-o hav-as tre bel-a-n kampus-o-n
 | G g | /g/ | go ゴー |  |
 | Ĝ ĝ | /d͡ʒ/ | ĝo ヂョー | ĉ を濁らせた音. 日本語では語頭によく現れる. e.g. 上等 [d͡ʒoːtoː] [^1]  |
 | H h | /h/ | ho ホー |  |
-| Ĥ ĥ | /x/ | ĥo ホー | k の舌の位置で摩擦音を出す. あまり出番がない音. 例：*la ĉe**ĥ**a* “チェコ語” |
+| Ĥ ĥ | /x/ | ĥo ホー | k の舌の位置で摩擦音を出す. あまり出番がない音. 例：*la ĉe**ĥ**a* "チェコ語" |
 | I i | /i/ | i イー |  |
 | J j | /j/ | jo ヨー |  |
 | Ĵ ĵ | /ʒ/ | ĵo ジョー | ŝ を濁らせた音. 日本語では母音の後によく現れる. e.g. 登場 [toːʒoː] [^1] |
@@ -88,8 +89,6 @@ Hokkajd-a Universitat-o hav-as tre bel-a-n kampus-o-n
 [^1]: 日本語のヂ, ジは後部歯茎音 [d͡ʒ, ʒ] というよりは歯茎硬口蓋音 [d͡ʑ, ʑ] で記述されることの方が多いが、これらの音は少なくとも日本語では区別されないので、ここでは便宜上 [d͡ʒ, ʒ] と表記する。ヂ, ジを後部歯茎音で発音する人も少数ながら実際にいるので、このIPA表記は間違いではない。
 
 - 表をご覧になるとわかる通り、エスペラントには **ĉ, ĝ, ĥ, ĵ, ŝ, ŭ** という符号のついた文字があります。この符号は<ruby> **字上符** <rp>(</rp><rt>じじょうふ</rt><rp>)</rp> </ruby>と呼ばれています。エスペラントだと ĉapelo「帽子」です。これらの文字は通常のキー配列では入力できず別途ソフトウェアを用意する必要があるので、すぐに入力できない場合は `cx, gx, hx` / `ch, gh, jh` / `^c, ^g, ^h` などのような代用表記を用いることがあります。
-- 当サイトでは、X-方式による**入力補助ツール**を提供しています。SNSへの投稿ボタンも用意しているので、よろしければご活用ください。  
-→ [日本語版](/conv/), [エスペラント版](/eo/conv/)
 
 ## 文法
 
@@ -98,9 +97,9 @@ Hokkajd-a Universitat-o hav-as tre bel-a-n kampus-o-n
 - [日本エスペラント協会 (JEI) の教材紹介ページ](https://www.jei.or.jp/gakusyu_kyozai/)
 - [ドリル式エスペラント入門](https://kurso.jei.or.jp/)：JEI が公開している学習サイト
 - [Lernu!](https://lernu.net/?hl=ja)：多言語対応のエスペラント学習サイト
-- エスペラント四週間 / 大島義夫著 → [北大OPAC](https://opac.lib.hokudai.ac.jp/opac/opac_link/bibid/2000065963), [大学書林](http://www.daigakusyorin.co.jp/book/b11365.html)
-- エスペラント語（ニューエクスプレスプラス）/ 安達信明著 → [北大OPAC](https://opac.lib.hokudai.ac.jp/opac/opac_link/bibid/2001883331), [白水社](https://www.hakusuisha.co.jp/book/b665565.html)
-- まるごとエスペラント文法 / 藤巻謙一著 → [北大OPAC](https://opac.lib.hokudai.ac.jp/opac/opac_link/bibid/2001578197), [JEI](https://jei.or.jp/libro/marugoto.htm)
+- エスペラント四週間 / 大島義夫著 → [京大OPAC](https://kuline.kulib.kyoto-u.ac.jp/), [大学書林](http://www.daigakusyorin.co.jp/book/b11365.html)
+- エスペラント語（ニューエクスプレスプラス）/ 安達信明著 → [京大OPAC](https://kuline.kulib.kyoto-u.ac.jp/), [白水社](https://www.hakusuisha.co.jp/book/b665565.html)
+- まるごとエスペラント文法 / 藤巻謙一著 → [京大OPAC](https://kuline.kulib.kyoto-u.ac.jp/), [JEI](https://jei.or.jp/libro/marugoto.htm)
 
 
 ### 冠詞
@@ -161,10 +160,10 @@ Hokkajd-a Universitat-o hav-as tre bel-a-n kampus-o-n
 | 未然相 | -ont- | -ot- |
 
 - 「エスペラント」という名称はザメンホフの別名 Doktoro Esperanto「エスペラント博士」に由来します。もとは動詞 esperi「希望する」の現在能動分詞 esperanto「希望する者」から来ています。
-- **受動文**は_be_動詞 esti + 受動分詞の形容詞形で形成されます。  
-    - _Ili konstruis la domon._（能動文）  
+- **受動文**は_be_動詞 esti + 受動分詞の形容詞形で形成されます。
+    - _Ili konstruis la domon._（能動文）
     = they built the house「彼らがその家を建てた」
-    - _La domo estis konstruita de ili._（受動文）  
+    - _La domo estis konstruita de ili._（受動文）
     = the house was built by them「その家は彼らによって建てられた」
 
 ### 接辞
@@ -190,7 +189,7 @@ Hokkajd-a Universitat-o hav-as tre bel-a-n kampus-o-n
 
 | 接尾辞 | 意味 | 例 |
 | :---- | :--- | :--|
-| -aĉ- | 粗悪 | knabo 男の子 > knabaĉo 悪ガキ<br>manĝi 食べる > mangâĉi 汚い食べ方をする |
+| -aĉ- | 粗悪 | knabo 男の子 > knabaĉo 悪ガキ<br>manĝi 食べる > manĝaĉi 汚い食べ方をする |
 | -ad- | 動作の継続 | lerni 学ぶ > lernado 学習<br>iri 行く > iradi 通う |
 | -aĵ- | 事物 | bela 美しい > belaĵo 美しいもの cf. belo 美<br>trinki 飲む > trinkaĵo 飲み物 |
 | -an- | 一員 | klubo クラブ > klubano クラブの一員<br>Usono 米国 > usonano 米国民 |
@@ -204,7 +203,7 @@ Hokkajd-a Universitat-o hav-as tre bel-a-n kampus-o-n
 | -end- | 受け身の義務 | pagi 支払う > pagenda 支払われるべき |
 | -er- | ごく小さな一部分 | sablo 砂 > sablero 砂つぶ |
 | -estr- | 指導者 | ŝipo 船 > ŝipestro 船長 |
-| -et- | 程度が弱い, かわいい | ridi 笑う > redeti ほほえむ<br>mano 手 > maneto おてて, patrino 母 > patrineto ママ |
+| -et- | 程度が弱い, かわいい | ridi 笑う > rideti ほほえむ<br>mano 手 > maneto おてて, patrino 母 > patrineto ママ |
 | -id- | 子 | bovo 牛 > bovido 子牛 |
 | -ig- | 他動詞化, 使役化 | akra 鋭い > akrigi 鋭くする<br>sidi 座っている > sidigi 座らせる<br>lerni 学ぶ > lernigi 学ばせる |
 | -iĝ- | 状態の変化, 反使役化 | akra 鋭い > akriĝi 鋭くなる<br>sidi 座っている > sidiĝi 座る<br>fermi 閉める > fermiĝi 閉まる |
@@ -222,14 +221,14 @@ Hokkajd-a Universitat-o hav-as tre bel-a-n kampus-o-n
 | -ul- | ある性質の人 | juna 若い > junulo 若者<br>miliono 百万 > milionulo 億万長者 |
 | -um- | 意味は未定義 | brako 腕 > brakumi 抱きしめる<br>aero 空気 > aerumi 空気を送る<br>kolo 首 > kolumo 襟<br>ほかに適切な接辞がないときに使う |
 
-[^ebl]: -ebl- (-ind-, -end- も同様) は基本的に他動詞の語根に付加されるが、自動詞のなかでも目的語を取りうるものであれば接辞を付加できる場合がある (PMEG: "Oni iafoje uzas EBL (kaj ankaŭ IND kaj END) post verbo, kiu normale estas senobjekta, sed kiu tamen iafoje havas objekton")。……というのが規範に則った説明だが、それ以外の自動詞でも -ebl- が使用される例が少数ながら観察される。例えば、「fali 落下する > falebla 落下しやすい」や「rompi 壊す > rompiĝi 壊れる > rompiĝebla 壊れやすい ※rompeblaのほうが一般的」「flui 流れる > fluebla 流動性の」などがある。いま挙げた例は典型的な非対格動詞である。非対格動詞 unaccusative とは主語が動作主（意味上の主語, 外項）ではなく対象物（意味上の目的語, 内項）であるような自動詞であり、これに対して主語が動作主であるような自動詞を非能格動詞 unergative という。「iri, 行く, go」は非対格的とみなされることも多いが、「irebla 通行可能な」においては非能格的な解釈がなされ、新たに目的語が生起して iri vojon「道を行く」からirebla vojo「通行可能な道」が生成される推測できる。以上のことを図式化すると、次のようになる：<br>**①Vが他動詞および目的語を取る一部の非能格動詞の場合**<br>《外項：動作主》が《内項：対象物》をVする→《内項》はV-ebla だ<br>manĝi la ranon カエルを食べる > la rano estas manĝebla そのカエルは食用だ<br>iri vojon 道を行く > irebla vojo 通れる道<br>**②Vが非対格動詞の場合**<br>《内項》がVする →《内項》は V-ebla だ。<br>objekto rompiĝas 物体が壊れる > <sup>?</sup>rompiĝebla objekto 壊れやすい物体<br>規範的には①の場合にのみ接辞 -ebl- が使用されるが、これは「～されうる povas esti farata」という受け身の意味が保持されている結果だと言える。通言語的に非人称受動文（自動詞の主語を削除するタイプの文）は主として非能格動詞からしか作られないのも、これと同様の現象である（cf.「雨に降られる」は言えるが「地震に起こられる」はふつう言わない）。いっぽう仮に②の場合も容認されるとしたら、一般化して、動詞が内項を取るならば**理論的には一応** -ebl- を付加することができると言えそうである。
+[^ebl]: -ebl- (-ind-, -end- も同様) は基本的に他動詞の語根に付加されるが、自動詞のなかでも目的語を取りうるものであれば接辞を付加できる場合がある (PMEG: "Oni iafoje uzas EBL (kaj ankaŭ IND kaj END) post verbo, kiu normale estas senobjekta, sed kiu tamen iafoje havas objekton")。
 
 #### 非公式の接辞
 
-- **国名を表す *-i-***  
-国名は規範としては -uj- で表すことになっていますが、-i- を使う人もふつうにいます。むしろ -i- の方が一般的かもしれません。  
+- **国名を表す *-i-***
+国名は規範としては -uj- で表すことになっていますが、-i- を使う人もふつうにいます。むしろ -i- の方が一般的かもしれません。
 e.g. Japanio, Germanio / Japanujo, Germanujo
-- **男性を表す *-iĉ-***  
+- **男性を表す *-iĉ-***
 伝統的に、人物を表す語根は本来的に男性を指し、女性を指す場合は接尾辞 -in- を付加することになっています[^prof]。例えば「patro 父」から「patrino 母」が形成されます。しかしこれでは男女を明示しない「親」を表現できないという問題があり、また現代のジェンダー問題も考えると、少々不自由なところがあります。そこで、語根レベルでは動物の雌雄を含意せず、雌雄の標示は両性とも接辞で行おうとする立場があります。この場合、patro は男女を明示しない「親」を意味し、父・母はそれぞれ patriĉo, patrino と接辞で示すことになります。ちなみに、この *ĉ / n* の対立は愛称を作る接辞 *ĉj /nj* から類推した結果だと思われます。
 
 [^prof]: 職業名詞に関しては、女性を表す -in- がないからといって男性に限定されるようなことはありません。kuracisto は男女を明示しない「医者」で、あえて kuracistino「女医」と言うことはあまりありません。
@@ -280,14 +279,12 @@ e.g. Japanio, Germanio / Japanujo, Germanujo
     - mia amiko「わたしの友人」
     - miaj amikoj「わたしの友人たち」※「わたしたちの友人」は "nia amiko"
     - mian amikon「わたしの友人を」
-- **再帰代名詞 *si***「～自身」は3人称にのみ使います。1, 2人称の再帰は人称代名詞と同形です。lavi「～を洗う」という動詞を例に比較してみましょう。  
+- **再帰代名詞 *si***「～自身」は3人称にのみ使います。1, 2人称の再帰は人称代名詞と同形です。lavi「～を洗う」という動詞を例に比較してみましょう。
     - Mi lavis min.「私は（自分の）体を洗った」
     - Vi lavis vin.「あなた・あなた方は体を洗った」
     - Li lavis sin.「彼は体を洗った」
     - Li lavis lin.「彼は彼（彼自身ではない別の男性）の体を洗った」
-- 再帰代名詞は同じ節のなかの主語を照応する[^refl]ため、その性質上、主語にはなれません。主格 si は前置詞とともに用いられる場合にのみ現れます。
+- 再帰代名詞は同じ節のなかの主語を照応するため、その性質上、主語にはなれません。主格 si は前置詞とともに用いられる場合にのみ現れます。
 - **不定代名詞 *oni*** は不特定の人物や未知の人物を表したり、意図的に人物をぼかしたりするときに使われます。
     - oni diras, ke ~ : 英語の "they say that ~"「～と言われている」
     - oni sidas: 「人が座っている」
-
-[^refl]: 言語学の話になるが、束縛理論でよく出される _"**Max** boasted that the queen invited Lucie and **himself** for a drink."_「マックスは女王がルーシーと自分を飲みに招待してくれたと自慢した」みたいな形式の文はエスペラントではどれくらい容認されるのだろうか (e.g. <sup>?</sup>_**Max** fanfaronis, ke la reĝino invitis Lucie kaj **sin** por trinkaĵo._)。PMEG の [_11.6.2. Si en kompleksaj frazoj_](https://bertilow.com/pmeg/gramatiko/pronomoj/si/kompleksaj_frazoj.html) では "Oni ankaŭ ne uzu _si_ kiel subjekton de subfrazo, nek kiel parton de la subjekto de subfrazo, kun la celo, ke _si_ reprezentu la subjekton de la ĉeffrazo." とあり、この書き方だとたぶん誤りとみなされそうだ。実際に使う人はそれなりにいそうだが……

@@ -1,30 +1,23 @@
 # meta
 lsi: false
 safe: false
-url: "https://es-hokkajdauniv.github.io"
+url: "https://esperanto-societo-de-kioto-universitato.github.io/es-kiotauniv.github.io"
 source: ./
 lang: ja
 title:
-  ja: 北海道大学エスペラント研究会
-  eo: Esperanto-Rondo de Hokkajda Universitato
+  ja: 京大エスペラント語研究会
+  eo: La Esperanto-Societo de la Universitato de Kioto
 description:
-  ja: 世界共通語エスペラントを学ぶ北大非公認サークルのホームページです. 活動内容や北大エスペラント史などについてご紹介します.
-  eo: La ĉefpaĝo de la Esperanto-Rondo de Hokkajda Universitato. Oni prezentas la agadojn kaj la historion de Esperanto ĉe la Hokkajda Universitato.
+  ja: 1919年創立。京都大学でエスペラントを学ぶサークルの公式サイトです。例会案内や活動紹介をお届けします。
+  eo: Fondita en 1919. La oficiala retejo de la Esperanto-Societo de la Universitato de Kioto. Ni prezentas niajn agadojn kaj informojn pri la regulaj kunvenoj.
 twitter:
-  username: Es_HokkajdaUniv
+  username: esp_univK
   card: summary
-google_analytics: G-4WD7T5F6GN
 timezone: Asia/Tokyo
 
 # social links
-email: esperanto.hokudai@gmail.com
-github_username: Es-HokkajdaUniv
-mastodon:
-  - username: Es_HokkajdaUniv
-    instance: fedibird.com
-twitter_username: Es_HokkajdaUniv
-bluesky_username: Es-HokkajdaUniv
-note_username: es_hokkajdauniv
+twitter_username: esp_univK
+instagram_username: esperanto_kyotouniv
 
 incremental: false
 highlighter: rouge
@@ -46,11 +39,9 @@ header_pages:
     - ja/index.md
     - ja/pri-eo.md
     - ja/historio.md
-    - ja/conv.md
   eo:
     - eo/index.md
     - eo/historio.md
-    - eo/conv.md
 exclude:
   - README.md
 plugins:

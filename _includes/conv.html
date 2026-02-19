@@ -6,7 +6,6 @@
 {%- assign copy-error = 'コピーに失敗しました' -%}
 {%- assign box-left = 'X-方式' -%}
 {%- assign box-right = '字上符付き文字' -%}
-{%- assign misskey-lang = 'ja' -%}
 {%- endif -%}
 {%- if lang == 'eo' -%}
 {%- assign placeholder = "Tajpu ĉi tie...&#13;&#10;ekz.," -%}
@@ -15,7 +14,6 @@
 {%- assign copy-error = 'Kopio malsukcesis' -%}
 {%- assign box-left = 'X-sistemo' -%}
 {%- assign box-right = 'Ĉapelitaj literoj' -%}
-{%- assign misskey-lang = 'en' -%}
 {%- endif %}
 <div class="container">
   <div class="box-wrapper">
@@ -26,7 +24,7 @@
   <div class="box-wrapper">
     <div class="textbox-header">{{ box-right }}</div>
     <textarea id="output-esperanto" readonly></textarea>
-    
+
     <div class="btn-controls">
         <button id="btn-copy" class="btn-copy" onclick="copyText()">📋 {{ btn-copy }}</button>
         <button class="btn-x" title="X (Twitter)" onclick="postText('twitter')">
@@ -34,9 +32,6 @@
         </button>
         <button class="btn-bsky" title="Bluesky" onclick="postText('bsky')">
           <svg class="svg-icon"><use xlink:href="{{ '/assets/social-icons.svg#bluesky' | relative_url }}" fill="#fff"></use></svg>
-        </button>
-        <button class="btn-misskey" title="Misskey" onclick="postText('misskey')">
-          <svg class="svg-icon"><use xlink:href="{{ '/assets/social-icons.svg#misskey' | relative_url }}" fill="#fff"></use></svg>
         </button>
         <button class="btn-mastodon" title="Mastodon" onclick="postText('mastodon')">
           <svg class="svg-icon"><use xlink:href="{{ '/assets/social-icons.svg#mastodon' | relative_url }}" fill="#fff"></use></svg>
@@ -50,7 +45,6 @@
   const outputBox = document.getElementById('output-esperanto');
   const copyButton = document.getElementById('btn-copy');
 
-  // 変換マップの定義
   const char_set = [
     ["cx", "ĉ"],
     ["Cx", "Ĉ"],
@@ -64,13 +58,12 @@
     ["Sx", "Ŝ"],
     ["ux", "ŭ"],
     ["Ux", "Ŭ"],
-    ["xx", "x"] //多言語テキストにおいて aux -> aŭ となるのを防ぐため auxx -> aux と変換
+    ["xx", "x"]
   ];
 
-  // 文字変換関数
   function convertToEsperanto(text) {
     let result = text;
-    const tempPlaceholder = "\uFFFF"; // 内部処理用
+    const tempPlaceholder = "\uFFFF";
     const escapeRow = char_set.find(row => row[0] === "xx");
     if (escapeRow) {
       result = result.replaceAll(escapeRow[0], tempPlaceholder);
@@ -90,23 +83,19 @@
     return result;
   }
 
-  // 入力イベントリスナー
   inputBox.addEventListener('input', (e) => {
     const inputText = e.target.value;
     const convertedText = convertToEsperanto(inputText);
     outputBox.value = convertedText;
   });
 
-  // コピー機能
   function copyText() {
     const textToCopy = outputBox.value;
     if (!textToCopy) return;
 
     navigator.clipboard.writeText(textToCopy).then(() => {
     copyButton.textContent = '{{ btn-copied }}';
-      // 連続クリックを防止
       copyButton.disabled = true;
-      // 2秒後に元の状態に
       setTimeout(() => {
           copyButton.textContent = '📋 {{ btn-copy }}';
           copyButton.disabled = false;
@@ -117,7 +106,6 @@
     });
   }
 
-  // シェア機能
   function postText(platform) {
     const textToShare = outputBox.value;
     if (!textToShare) return;
@@ -128,10 +116,6 @@
     }
     else if (platform == "bsky") {
       postURL = `https://bsky.app/intent/compose?text=${encodedText}`;
-      // postURL = `bluesky://intent/compose?text=${encodedText}`;
-    }
-    else if (platform == "misskey") {
-      postURL = `https://misskey-hub.net/{{ misskey-lang }}/share/?text=${encodedText}&visibility=public&localOnly=0&manualInstance=misskey.io`;
     }
     else if (platform == "mastodon") {
       postURL = `https://mastodonshare.com/?text=${encodedText}`;

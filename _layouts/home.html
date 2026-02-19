@@ -4,16 +4,20 @@ layout: default
 
 <div class="home">
 
-  <figure>
-    <img src="/assets/img/maskoto.webp" alt='Surprizita oranĝhara infano diranta "Ho!"' width="512" height="512" fetchpriority="high">
-    <figcaption>
+  <div class="hero-section">
+    <img class="hero-logo" src="/assets/img/logo.jpg" alt="京大エスペラント語研究会ロゴ" width="180" height="180" fetchpriority="high">
+    <div class="hero-text">
       {% if page.lang == 'ja' %}
-      我らがマスコット. 名前はない. Ho!
+      <h1>京大エスペラント語研究会</h1>
+      <p>La Esperanto-Societo de la Universitato de Kioto</p>
+      <p class="hero-subtitle">Ekde 1919 &mdash; 100年以上の伝統</p>
       {% else %}
-      Nia maskoto. Neniu nomo. Ho!
+      <h1>La Esperanto-Societo de la Universitato de Kioto</h1>
+      <p>京大エスペラント語研究会</p>
+      <p class="hero-subtitle">Ekde 1919 &mdash; pli ol cent jaroj da tradicio</p>
       {% endif %}
-    </figcaption>
-  </figure>
+    </div>
+  </div>
 
   {{ content }}
 

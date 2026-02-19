@@ -3,39 +3,37 @@ lang: eo
 layout: home
 title: Hejme
 ---
-<!-- 以下、自由に記述してください -->
+
 ## Pri ni
 
-**Esperanto-Rondo de Hokkajda Universitato** estas studgrupo por lerni Esperanto. Ni estas neoficiala universitata grupo, konsistanta ĉefe el studentoj de la Hokkajda Universitato. Ankaŭ eksteruloj de la universitato estas bonvenaj.
+**La Esperanto-Societo de la Universitato de Kioto** estas studgrupo por lerni Esperanton ĉe la Universitato de Kioto. Fondita en 1919, ĝi daŭrigas sian agadon dum pli ol cent jaroj. Bonvenaj estas ne nur studentoj de la Universitato de Kioto, sed ankaŭ studentoj de aliaj universitatoj kaj ĝeneralaj esperantistoj.
 
 ## Ĉefaj agadoj
 
-- Studkunvenoj de Esperanto
-- Okazigado de pulbazaro ĉe la universitata festivalo (ĉiujare en junio)
-- Eldonado de novaĵletero (neregule)
+- Regulaj studkunvenoj de Esperanto
+- Legado de Esperanto-literaturo
+- Interŝanĝo kun aliaj universitataj Esperanto-grupoj
 
-| Anoj | 5 homoj |
-| Fondita en | 1919 |
-| Loko | Sapporo Kampuso de la Hokkajda Universitato |
-| Ofteco | unufoje en 1–2 monatoj |
-| retadreso | esperanto.hokudai@gmail\.com |
-| SNS | [Fediverse](https://fedibird.com/@Es_HokkajdaUniv), [Bluesky](https://bsky.app/profile/Es-HokkajdaUniv.fedibird.com.ap.brid.gy), [X (Twitter)](https://www.twitter.com/Es_HokkajdaUniv) |
+<div class="info-cards" markdown="0">
+  <div class="info-card">
+    <h3>Kunveno</h3>
+    <p>Merkrede 18:30～<br>Okcidenta Eksterinstruejo D206</p>
+  </div>
+  <div class="info-card">
+    <h3>Fondjaro</h3>
+    <p>1919</p>
+  </div>
+  <div class="info-card">
+    <h3>Retaj Retoj</h3>
+    <p><a href="https://x.com/esp_univK">X: @esp_univK</a><br><a href="https://www.instagram.com/esperanto_kyotouniv/">Instagram</a></p>
+  </div>
+</div>
 
-```yaml
-nomo: Esperanto-Rondo de Hokkajda Universitato
-loko: Sapporo, Hokkajdo, Japanio
-ekde: 1919 (aŭ 2012)
-agado: 
-    - lernado de Esperanto
-    - okazigado de pulbazaro ĉe la universitata festivalo
-    - eldonado de novaĵletero, ktp.
-kontakto:
-    retadreso: esperanto.hokudai@gmail.com
-    fediverso: '@Es_HokkajdaUniv@fedibird.com'
-    bluesky: '@Es_HokkajdaUniv.fedibird.com.ap.brid.gy' # tra Bridgy Fed
-    X / tvitero: '@Es_HokkajdaUniv'
-    github: Es-HokkajdaUniv
-    note.com: es_hokkajdauniv
-ekstera ligilo:
-    hubcnavi: hubcnavi.net/Es_HokkajdaUniv
-```
+## Kontakto
+
+Vi povas viziti nian kunvenon libere. Bonvolu veni rekte aŭ kontakti nin per la sociaj retoj.
+
+<div class="social-badges" markdown="0">
+  <a href="https://x.com/esp_univK">X (Twitter)</a>
+  <a href="https://www.instagram.com/esperanto_kyotouniv/">Instagram</a>
+</div>
