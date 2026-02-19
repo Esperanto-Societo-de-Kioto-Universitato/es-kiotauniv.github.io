@@ -2,7 +2,6 @@
 lsi: false
 safe: false
 url: "https://esperanto-societo-de-kioto-universitato.github.io"
-baseurl: "/es-kiotauniv.github.io"
 source: ./
 lang: ja
 title:
