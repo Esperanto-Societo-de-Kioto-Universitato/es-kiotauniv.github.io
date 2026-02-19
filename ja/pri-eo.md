@@ -44,7 +44,7 @@ La Universitat-o de Kiot-o hav-as tre bel-a-n kampus-o-n
 
 {% gloss first_line_orig: true %}
 En Kioto estas multaj antikvaj temploj, sanktejoj kaj ĝardenoj.
-En Kiot-o est-as mult-a-j antikv-a-j templ-o-j sankej-o-j kaj ĝarden-o-j
+En Kiot-o est-as mult-a-j antikv-a-j templ-o-j sanktej-o-j kaj ĝarden-o-j
 に 京都-名詞 存在-動詞.現在 多-形容詞-複数 古-形容詞-複数 寺-名詞-複数 神社-名詞-複数 と 庭園-名詞-複数
 「京都には多くの古い寺や神社、庭園がある」
 {% endgloss %}
