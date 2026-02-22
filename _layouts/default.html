@@ -7,11 +7,13 @@
   <main class="page-content" aria-label="Content">
     <div class="wrapper">
       <div class="js-toc-content">
+        {%- unless page.permalink == '/404.html' -%}
         {%- if page.lang == 'ja' -%}
         <p class="last_modified_date">最終更新日：{{ page.last_modified_at | date: '%F %H:%M %:z' }}</p>
         {%- else -%}
         <p class="last_modified_date">Lasta ĝisdatigo: {{ page.last_modified_at | date: '%F %H:%M %:z' }}</p>
         {%- endif -%}
+        {%- endunless -%}
         {{ content -}}
       </div>
       <aside class="sidebar">

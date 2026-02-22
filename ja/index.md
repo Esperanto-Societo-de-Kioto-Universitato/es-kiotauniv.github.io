@@ -26,7 +26,7 @@ permalink: /
   </div>
   <div class="info-card">
     <h3>SNS</h3>
-    <p><a href="https://x.com/esp_univK">X: @esp_univK</a><br><a href="https://www.instagram.com/esperanto_kyotouniv/">Instagram</a></p>
+    <p><a href="https://x.com/esp_univK" target="_blank" rel="noopener">X: @esp_univK</a><br><a href="https://www.instagram.com/esperanto_kyotouniv/" target="_blank" rel="noopener">Instagram</a></p>
   </div>
 </div>
 
@@ -57,6 +57,6 @@ permalink: /
 見学はいつでも歓迎しています。例会の日時に直接お越しいただくか、SNSのDMでお気軽にご連絡ください。
 
 <div class="social-badges" markdown="0">
-  <a href="https://x.com/esp_univK">X (Twitter)</a>
-  <a href="https://www.instagram.com/esperanto_kyotouniv/">Instagram</a>
+  <a href="https://x.com/esp_univK" target="_blank" rel="noopener">X (Twitter)</a>
+  <a href="https://www.instagram.com/esperanto_kyotouniv/" target="_blank" rel="noopener">Instagram</a>
 </div>

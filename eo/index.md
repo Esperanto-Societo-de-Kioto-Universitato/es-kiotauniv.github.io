@@ -25,7 +25,7 @@ title: Hejme
   </div>
   <div class="info-card">
     <h3>Sociaj retoj</h3>
-    <p><a href="https://x.com/esp_univK">X: @esp_univK</a><br><a href="https://www.instagram.com/esperanto_kyotouniv/">Instagram</a></p>
+    <p><a href="https://x.com/esp_univK" target="_blank" rel="noopener">X: @esp_univK</a><br><a href="https://www.instagram.com/esperanto_kyotouniv/" target="_blank" rel="noopener">Instagram</a></p>
   </div>
 </div>
 
@@ -56,6 +56,6 @@ Kelkaj niaj membroj partoprenis la Orientazian Junularan Esperanto-Seminarion (K
 Vi povas viziti nian kunvenon libere. Bonvolu veni rekte aŭ kontakti nin per la sociaj retoj.
 
 <div class="social-badges" markdown="0">
-  <a href="https://x.com/esp_univK">X (Twitter)</a>
-  <a href="https://www.instagram.com/esperanto_kyotouniv/">Instagram</a>
+  <a href="https://x.com/esp_univK" target="_blank" rel="noopener">X (Twitter)</a>
+  <a href="https://www.instagram.com/esperanto_kyotouniv/" target="_blank" rel="noopener">Instagram</a>
 </div>

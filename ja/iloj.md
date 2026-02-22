@@ -1,5 +1,6 @@
 ---
 lang: ja
+layout: page
 title: ツール
 permalink: /iloj/
 ---

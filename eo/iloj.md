@@ -1,5 +1,6 @@
 ---
 lang: eo
+layout: page
 title: Iloj
 permalink: /eo/iloj/
 ---
