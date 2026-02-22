@@ -29,6 +29,10 @@ title: Hejme
   </div>
 </div>
 
+## Amikaj organizoj
+
+- [Esperanto-Rondo de Hokkajda Universitato](https://es-hokkajdauniv.github.io/){:target="_blank"} — Ankaŭ fondita en 1919. Studgrupo por lerni kaj disvastigi Esperanton en Saporo.
+
 ## Kontakto
 
 Vi povas viziti nian kunvenon libere. Bonvolu veni rekte aŭ kontakti nin per la sociaj retoj.
