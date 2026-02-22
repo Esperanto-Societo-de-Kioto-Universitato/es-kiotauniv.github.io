@@ -45,6 +45,7 @@ header_pages:
     - eo/historio.md
 exclude:
   - README.md
+  - docs/
 plugins:
   - jekyll-sitemap
   - jekyll-last-modified-at

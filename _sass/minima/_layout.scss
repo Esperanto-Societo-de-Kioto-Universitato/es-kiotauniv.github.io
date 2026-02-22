@@ -137,6 +137,11 @@
       color: #F5E100;
       border-bottom: none;
     }
+
+    &.active {
+      color: #F5E100;
+      font-weight: 700;
+    }
   }
 }
 

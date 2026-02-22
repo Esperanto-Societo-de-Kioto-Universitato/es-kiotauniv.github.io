@@ -24,7 +24,7 @@ title: Hejme
     <p>1919</p>
   </div>
   <div class="info-card">
-    <h3>Retaj Retoj</h3>
+    <h3>Sociaj retoj</h3>
     <p><a href="https://x.com/esp_univK">X: @esp_univK</a><br><a href="https://www.instagram.com/esperanto_kyotouniv/">Instagram</a></p>
   </div>
 </div>

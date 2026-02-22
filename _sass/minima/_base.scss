@@ -384,6 +384,10 @@ table {
   border-bottom: 3px solid $brand-color;
 }
 
+:lang(eo) .footnotes::before {
+  content: "Notoj";
+}
+
 .footnotes {
   margin-top: $spacing-unit * 2;
 }

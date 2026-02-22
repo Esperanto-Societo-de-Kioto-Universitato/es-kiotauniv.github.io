@@ -5,7 +5,7 @@ layout: default
 <div class="home">
 
   <div class="hero-section">
-    <img class="hero-logo" src="{{ '/assets/img/logo.jpg' | relative_url }}" alt="京大エスペラント語研究会ロゴ" width="180" height="180" fetchpriority="high">
+    <img class="hero-logo" src="{{ '/assets/img/logo.jpg' | relative_url }}" alt="{% if page.lang == 'eo' %}Emblemo de la Esperanto-Societo de la Universitato de Kioto{% else %}京大エスペラント語研究会ロゴ{% endif %}" width="180" height="180" fetchpriority="high">
     <div class="hero-text">
       {% if page.lang == 'ja' %}
       <h1>京大エスペラント語研究会</h1>
