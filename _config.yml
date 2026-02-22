@@ -37,7 +37,6 @@ defaults:
 header_pages:
   ja:
     - ja/index.md
-    - ja/pri-eo.md
     - ja/historio.md
   eo:
     - eo/index.md
