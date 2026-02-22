@@ -1,7 +1,7 @@
 ---
 lang: eo
 layout: home
-title: Hejme
+title: Hejmo
 ---
 
 ## Pri ni
