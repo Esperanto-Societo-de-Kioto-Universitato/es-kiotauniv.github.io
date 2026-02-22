@@ -5,6 +5,16 @@
   <meta http-equiv='content-language' content="{{ page.lang | default: 'ja' }}">
   <meta name="generator" content="Jekyll v4.4.1" />
   {%- assign lang = page.lang | default: 'ja' -%}
+  {%- if page.permalink == '/404.html' -%}
+    {%- assign ja_url = '/' -%}
+    {%- assign eo_url = '/eo/' -%}
+  {%- elsif lang == 'ja' -%}
+    {%- assign ja_url = page.url -%}
+    {%- assign eo_url = page.url | prepend: '/eo' -%}
+  {%- else -%}
+    {%- assign eo_url = page.url -%}
+    {%- assign ja_url = page.url | remove_first: '/eo' -%}
+  {%- endif -%}
   {% if page.layout == 'home' -%}
   <title>{{ site.title[lang] }}</title>
   <meta property="og:title" content="{{ site.title[lang] }}" />
@@ -22,6 +32,9 @@
   <meta property="og:description" content="{{ site.description[lang] }}"/>
   <meta name="description" content="{{ site.description[lang] }}" />
   <link rel="canonical" href="{{ page.url | absolute_url }}" />
+  <link rel="alternate" hreflang="ja" href="{{ ja_url | absolute_url }}" />
+  <link rel="alternate" hreflang="eo" href="{{ eo_url | absolute_url }}" />
+  <link rel="alternate" hreflang="x-default" href="{{ ja_url | absolute_url }}" />
   <meta property="og:site_name" content="{{ site.title[lang] }}" />
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="@esp_univK" />

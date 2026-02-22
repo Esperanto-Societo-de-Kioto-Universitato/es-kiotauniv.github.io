@@ -49,7 +49,7 @@ Kelkaj niaj membroj partoprenis la Orientazian Junularan Esperanto-Seminarion (K
 
 ## Rilataj ligiloj
 
-- [Esperanto-Rondo de Hokkajda Universitato](https://es-hokkajdauniv.github.io/){:target="_blank"} — Ankaŭ fondita en 1919. Ilia retejo servis kiel referenco por la konstruo de nia retejo.
+- [Esperanto-Rondo de Hokkajda Universitato](https://es-hokkajdauniv.github.io/){:target="_blank" rel="noopener"} — Ankaŭ fondita en 1919. Ilia retejo servis kiel referenco por la konstruo de nia retejo.
 
 ## Kontakto
 

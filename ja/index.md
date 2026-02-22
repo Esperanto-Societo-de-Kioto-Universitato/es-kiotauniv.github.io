@@ -50,7 +50,7 @@ permalink: /
 
 ## 関連リンク
 
-- [北海道大学エスペラント研究会](https://es-hokkajdauniv.github.io/){:target="_blank"} — 同じく1919年創立。当サイト構築の際に参考にさせていただきました。
+- [北海道大学エスペラント研究会](https://es-hokkajdauniv.github.io/){:target="_blank" rel="noopener"} — 同じく1919年創立。当サイト構築の際に参考にさせていただきました。
 
 ## お問い合わせ
 

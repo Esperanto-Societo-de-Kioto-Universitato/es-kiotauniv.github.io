@@ -30,7 +30,7 @@
     </nav>
     {%- endif %}
     <nav class="lang-selector">
-      [ <a href="{{ '/' | relative_url }}"{% if lang == 'ja' %} class="active"{% endif %}>ja</a> <a href="{{ '/eo/' | relative_url }}"{% if lang == 'eo' %} class="active"{% endif %}>eo</a> ]
+      [ <a href="{{ ja_url | relative_url }}"{% if lang == 'ja' %} class="active"{% endif %}>ja</a> <a href="{{ eo_url | relative_url }}"{% if lang == 'eo' %} class="active"{% endif %}>eo</a> ]
     </nav>
   </div>
 </header>
