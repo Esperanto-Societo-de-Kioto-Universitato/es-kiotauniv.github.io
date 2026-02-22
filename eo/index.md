@@ -41,11 +41,11 @@ Kelkaj niaj membroj partoprenis la Orientazian Junularan Esperanto-Seminarion (K
 
 ## Amikaj organizoj
 
-### Esperanto-Sekcio "OLIVO" de la Korea Universitato de Fremdaj Lingvoj (HUFS)
+### Esperanto-Klubo "OLIVO" de La Universitato Hankuk pri fremdaj studoj (HUFS)
 
 Ĉar niaj regulaj kunvenoj okazas preskaŭ en la sama semajntago kaj je la sama horo, ni regule okazigas komunajn retkunvenojn.
 
-![Komuna reta kunveno kun Esperanto-Sekcio "OLIVO" de HUFS]({{ '/assets/img/olivo-joint-meeting.png' | relative_url }})
+![Komuna reta kunveno kun Esperanto-Klubo "OLIVO" de HUFS]({{ '/assets/img/olivo-joint-meeting.png' | relative_url }})
 
 ## Rilataj ligiloj
 
