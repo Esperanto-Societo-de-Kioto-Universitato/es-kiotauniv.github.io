@@ -5,23 +5,23 @@ title: Iloj
 permalink: /eo/iloj/
 ---
 
-Ni prezentas retajn aplikaĵojn por lernado kaj uzo de Esperanto, kreitajn de niaj membroj. Ĉiuj estas uzebla senpage en via retumilo.
+Ni prezentas retajn aplikaĵojn por lernado kaj uzo de Esperanto, kreitajn de niaj membroj. Ĉiuj estas senpage uzeblaj en via retumilo.
 
 ---
 
 ## Konvertilo de Esperanto-teksto: Kanĝi-anstataŭigo kaj Rubi-anotacio
 
-Ĉi tiu ilo aŭtomate aldonas japanlingvajn traduk-anotaciojn (rubi) super Esperanto-vortoj, kaj ankaŭ povas anstataŭigi Esperanto-radikojn per ĉinaj signoj (kanĝioj). Ĝi helpas lernantojn legi Esperanton kun samtempaj vortklarigoj.
+Ĉi tiu ilo aŭtomate aldonas japanlingvajn traduk-anotaciojn (rubi) super la Esperanto-vortoj, kaj ankaŭ povas anstataŭigi Esperanto-radikojn per ĉinaj signoj (kanĝioj). Ĝi helpas lernantojn legi Esperanton kun vortklarigoj videblaj samtempe.
 
 ![Ekzemplo de Esperanto-teksto kun rubi-anotacioj]({{ '/assets/img/converter-result.png' | relative_url }})
 
 ### Ĉefaj funkcioj
 
-- **HTML-rubi-anotacio** — Montras japanlingvan tradukon super ĉiu Esperanto-vorto en HTML-formato legebla en retumilo
+- **HTML-rubi-anotacio** — Montras japanlingvan tradukon super ĉiu Esperanto-vorto en HTML-formato, legebla en retumilo
 - **Kanĝi-anstataŭigo** — Anstataŭigas Esperanto-radikojn per respondaj ĉinaj signoj por intuicia legado
 - **Pluraj eligformatoj** — HTML-rubi, krampa formato (`Esperanto(traduko)`), simpla anstataŭigo, k.a.
 - **Agordeblaj reguloj** — Defaŭlta vortaro kun ĉirkaŭ 4 700 radikoj, plus eblo alŝuti proprajn CSV/JSON-dosierojn
-- **Preterpasa kaj loka anstataŭigo** — `%...%` por preterpasi anstataŭigon, `@...@` por apliki apartan regulon al specifa parto
+- **Preterlaso kaj loka anstataŭigo** — `%...%` por preterlasi anstataŭigon, `@...@` por apliki apartan regulon al specifa parto
 - **Paralela procezado** — Rapida konvertado eĉ por grandaj tekstoj
 - **14 lingvoj** — Disponebla en la japana, angla, ĉina, korea, rusa, hispana, franca, germana, k.a.
 
@@ -34,7 +34,7 @@ Ni prezentas retajn aplikaĵojn por lernado kaj uzo de Esperanto, kreitajn de ni
 
 ## Esperanto-kvizo kun 4 elektoj
 
-Lerna aplikaĵo por amuze studi Esperanto-vortojn kaj frazojn per 4-elekta kvizformato. Ĝi havas du reĝimojn — vortkvizo kaj frazkvizo — kun sonludado, poentkalkulado kaj rangotabeloj.
+Lerna aplikaĵo por amuze studi Esperanto-vortojn kaj frazojn per kvizo kun 4 elektoj. Ĝi havas du reĝimojn — vortkvizo kaj frazkvizo — kun sonludado, poentkalkulado kaj ranglistoj.
 
 ![Ekrankopio de la kvizaplicaĵo]({{ '/assets/img/quiz-screenshot.png' | relative_url }})
 
@@ -51,10 +51,10 @@ Lerna aplikaĵo por amuze studi Esperanto-vortojn kaj frazojn per 4-elekta kvizf
 - **10 niveloj** — De komencanto ĝis progresinto, paŝo post paŝo
 - **Kun sondosieroj** — Ĉiuj frazoj havas respondan sonregistraĵon
 
-### Funkcioj por subteni lernadon
+### Funkcioj por subteni la lernadon
 
 - **Poentkalkulado** — Nivela koeficiento (baza ×1.0, meza ×1.3, progresinta ×1.6), seriobonuso, precizecbonuso
-- **Rangotabeloj** — "Hodiaŭ", "Ĉi-monate" kaj "Tuttempa" ranglistoj per Google Sheets
+- **Ranglistoj** — "Hodiaŭ", "Ĉi-monate" kaj "Tuttempa" ranglistoj per Google Sheets
 - **Honora halo** — Pli ol 1 000 000 poentoj por eniri la honorliston
 - **Sparta reĝimo** — Ripetadu nur la eraritajn demandojn ĝis vi respondos ĉiujn ĝuste
 

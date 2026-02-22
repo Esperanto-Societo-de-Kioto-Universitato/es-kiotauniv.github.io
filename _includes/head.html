@@ -28,7 +28,7 @@
   <meta property="og:image" content="{{ 'assets/img/logo.jpg' | absolute_url }}" />
   <meta name="twitter:image" content="{{ 'assets/img/logo.jpg' | absolute_url }}" />
   <meta property="og:url" content="{{ page.url | absolute_url }}" />
-  <meta property="og:locale" content="{{ lang }}_JP" />
+  <meta property="og:locale" content="{% if lang == 'eo' %}eo_EO{% else %}ja_JP{% endif %}" />
   <meta property="og:description" content="{{ site.description[lang] }}"/>
   <meta name="description" content="{{ site.description[lang] }}" />
   <link rel="canonical" href="{{ page.url | absolute_url }}" />

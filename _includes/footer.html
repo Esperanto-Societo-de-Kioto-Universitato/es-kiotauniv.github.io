@@ -1,5 +1,5 @@
 <footer class="site-footer h-card">
-  <data class="u-url" href="{{ "/" | relative_url }}"></data>
+  <data class="u-url" href="{{ '/' | relative_url }}"></data>
   <div class="wrapper">
     {% assign lang = page.lang | default: 'ja' -%}
     <h2 class="footer-heading">{{ site.title[lang] | escape }}</h2>
@@ -8,9 +8,9 @@
         <ul class="contact-list">
           <li class="p-name">
             {%- if site.author -%}
-              {{ site.author[lang] | escape }}
+            {{ site.author[lang] | escape }}
             {%- else -%}
-              {{ site.title[lang] | escape }}
+            {{ site.title[lang] | escape }}
             {%- endif -%}
           </li>
           {% if lang == 'ja' %}
@@ -18,7 +18,7 @@
           <li>西部課外活動棟 D206</li>
           <li>創立 1919年</li>
           {% else %}
-          <li>Kunveno: merkrede 18:30～</li>
+          <li>Kunveno: merkrede ekde 18:30</li>
           <li>Okcidenta Eksterinstruejo D206</li>
           <li>Fondita en 1919</li>
           {% endif %}
@@ -32,7 +32,9 @@
       </div>
     </div>
     <p style="text-align: center; margin-top: 1.5em; margin-bottom: 0; opacity: 0.7;">
-      <img src="https://visitor-badge.laobi.icu/badge?page_id=esperanto-societo-de-kioto-universitato.github.io&left_color=%23555555&right_color=%23D4A800" alt="visitor count" style="width: auto; max-width: 120px;" />
+      <img
+        src="https://visitor-badge.laobi.icu/badge?page_id=esperanto-societo-de-kioto-universitato.github.io&left_color=%23555555&right_color=%23D4A800"
+        alt="visitor count" style="width: auto; max-width: 120px;" />
     </p>
   </div>
 </footer>
