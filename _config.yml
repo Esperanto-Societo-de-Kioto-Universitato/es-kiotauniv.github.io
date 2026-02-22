@@ -37,9 +37,11 @@ defaults:
 header_pages:
   ja:
     - ja/index.md
+    - ja/iloj.md
     - ja/historio.md
   eo:
     - eo/index.md
+    - eo/iloj.md
     - eo/historio.md
 exclude:
   - README.md
