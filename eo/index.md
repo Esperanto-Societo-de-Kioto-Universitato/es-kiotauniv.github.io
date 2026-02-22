@@ -31,7 +31,15 @@ title: Hejme
 
 ## Amikaj organizoj
 
-- [Esperanto-Rondo de Hokkajda Universitato](https://es-hokkajdauniv.github.io/){:target="_blank"} — Ankaŭ fondita en 1919. Studgrupo por lerni kaj disvastigi Esperanton en Saporo.
+### Esperanto-Sekcio "OLIVO" de la Korea Universitato de Fremdaj Lingvoj (HUFS)
+
+Ĉar niaj regulaj kunvenoj preskaŭ koincidas laŭ semajntago kaj horo, ni regule okazigas komunajn retkunvenojn.
+
+![Komuna reta kunveno kun Esperanto-Sekcio "OLIVO" de HUFS]({{ '/assets/img/olivo-joint-meeting.png' | relative_url }})
+
+## Rilataj ligiloj
+
+- [Esperanto-Rondo de Hokkajda Universitato](https://es-hokkajdauniv.github.io/){:target="_blank"} — Ankaŭ fondita en 1919. Ilia retejo servis kiel referenco por la konstruo de nia retejo.
 
 ## Kontakto
 

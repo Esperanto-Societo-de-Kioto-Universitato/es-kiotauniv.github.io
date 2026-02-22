@@ -32,7 +32,15 @@ permalink: /
 
 ## 友好団体
 
-- [北海道大学エスペラント研究会](https://es-hokkajdauniv.github.io/){:target="_blank"} — 同じく1919年創立。札幌でエスペラントの学習・普及活動を行うサークルです。
+### 韓国外国語大学 エスペラント部 "OLIVO"
+
+例会の曜日・時刻がほぼ一致していることから、定期的にオンラインの合同例会を実施しています。
+
+![韓国外国語大学(HUFS)エスペラント部 OLIVO とのオンライン合同例会の様子]({{ '/assets/img/olivo-joint-meeting.png' | relative_url }})
+
+## 関連リンク
+
+- [北海道大学エスペラント研究会](https://es-hokkajdauniv.github.io/){:target="_blank"} — 同じく1919年創立。当サイト構築の際に参考にさせていただきました。
 
 ## お問い合わせ
 
