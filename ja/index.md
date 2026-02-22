@@ -30,6 +30,16 @@ permalink: /
   </div>
 </div>
 
+### 活動の様子
+
+![海外から来たエスペランチストとの交流の様子]({{ '/assets/img/exchange-with-foreign-esperantists.jpg' | relative_url }})
+
+部室にはときどき海外のエスペランチストが訪ねてくださることもあります。（写真はフランス・アイルランドからのお客様）
+
+![東アジア青年エスペラントセミナー(Komuna Seminario)の様子（北海道にて）]({{ '/assets/img/komuna-seminario.jpg' | relative_url }})
+
+北海道で開催された東アジア青年エスペラントセミナー（Komuna Seminario）に当会から数名が参加しました。
+
 ## 友好団体
 
 ### 韓国外国語大学 エスペラント部 "OLIVO"

@@ -29,6 +29,16 @@ title: Hejme
   </div>
 </div>
 
+### Bildoj el niaj agadoj
+
+![Interŝanĝo kun eksterlandaj esperantistoj]({{ '/assets/img/exchange-with-foreign-esperantists.jpg' | relative_url }})
+
+Fojfoje eksterlandaj esperantistoj vizitas nian klubejon. (Foto: gastoj el Francio kaj Irlando)
+
+![Orientazia Junulara Esperanto-Seminario (Komuna Seminario) en Hokkajdo]({{ '/assets/img/komuna-seminario.jpg' | relative_url }})
+
+Kelkaj niaj membroj partoprenis la Orientazian Junularan Esperanto-Seminarion (Komuna Seminario) okazigitan en Hokkajdo.
+
 ## Amikaj organizoj
 
 ### Esperanto-Sekcio "OLIVO" de la Korea Universitato de Fremdaj Lingvoj (HUFS)
